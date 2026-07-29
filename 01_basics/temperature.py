@@ -1,6 +1,4 @@
-import random
-
-温度 = random.randint(-30, 40)
+温度 = int(input("気温を入力してください"))
 
 if 温度 >= 30:
     print("暑いですクーラーつけろ")
